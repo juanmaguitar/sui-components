@@ -1,0 +1,6 @@
+return (
+  <div>
+    <MoleculeNotification success/>
+    <MoleculeNotification warning showFooter/>
+  </div>
+)

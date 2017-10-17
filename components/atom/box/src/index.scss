@@ -1,0 +1,10 @@
+@import '~@schibstedspain/theme-basic/lib/index';
+
+.sui-AtomBox {
+  // Do your magic
+  color: red;
+
+  &.sui-AtomBox-green {
+    color: green;
+  }
+}
