@@ -1,0 +1,13 @@
+@import '~@schibstedspain/theme-basic/lib/index';
+
+.sui-atom-spinner {
+  background: red;
+  opacity: 70%;
+
+  &-fullscreen {
+
+  }
+
+  &:before {
+  }
+}
