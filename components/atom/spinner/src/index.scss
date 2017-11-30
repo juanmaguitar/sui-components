@@ -1,13 +1,38 @@
 @import '~@schibstedspain/theme-basic/lib/index';
 
 .sui-atom-spinner {
-  background: red;
-  opacity: 70%;
+  position: relative;
+  width: fit-content;
 
-  &-fullscreen {
+  .sui-atom-spinner-background {
+    position: absolute;
+    background-color: white;
+    opacity: 0.7;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    width: 100%;
 
+    &.sui-atom-spinner-background-visible {
+      visibility: visible
+    }
   }
 
-  &:before {
+  .sui-atom-spinner-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    width: 100%;
+
+    &.sui-atom-spinner-image-visible {
+      visibility: visible
+    }
   }
 }
