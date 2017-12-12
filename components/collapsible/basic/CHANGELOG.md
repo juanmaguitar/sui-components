@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="1.13.0"></a>
+# 1.13.0 (2017-12-05)
+
+
+### Features
+
+* add ellipsis to collapsible label ([b64cf9e](https://github.com/SUI-Components/sui-components/commit/b64cf9e))
+
+
+
+<a name="1.12.0"></a>
+# 1.12.0 (2017-11-23)
+
+
+### Features
+
+* set icon animation as a variable ([d22b643](https://github.com/SUI-Components/sui-components/commit/d22b643))
+* set transition as variable ([91d95a1](https://github.com/SUI-Components/sui-components/commit/91d95a1))
+
+
+
 <a name="1.11.0"></a>
 # 1.11.0 (2017-11-16)
 
@@ -93,6 +114,16 @@ All notable changes to this project will be documented in this file.
 ### Features
 
 * add border variable. ([6168c85](https://github.com/SUI-Components/sui-components/commit/6168c85))
+
+
+
+<a name="1.1.0"></a>
+# 1.1.0 (2017-09-12)
+
+
+### Features
+
+* collapsible/expandible component. ([bcb1277](https://github.com/SUI-Components/sui-components/commit/bcb1277))
 
 
 
