@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+<a name="1.15.0"></a>
+# 1.15.0 (2017-12-28)
+
+
+### Features
+
+* remove root-parent selector from collapsible basic. ([c4d93ac](https://github.com/SUI-Components/sui-components/commit/c4d93ac))
+
+
+
+<a name="1.14.0"></a>
+# 1.14.0 (2017-12-18)
+
+
+### Features
+
+* add border-radius to collapsible basic ([8d5037f](https://github.com/SUI-Components/sui-components/commit/8d5037f))
+
+
+
+<a name="1.13.0"></a>
+# 1.13.0 (2017-12-05)
+
+
+### Features
+
+* add ellipsis to collapsible label ([b64cf9e](https://github.com/SUI-Components/sui-components/commit/b64cf9e))
+
+
+
 <a name="1.12.0"></a>
 # 1.12.0 (2017-11-23)
 
@@ -104,6 +134,16 @@ All notable changes to this project will be documented in this file.
 ### Features
 
 * add border variable. ([6168c85](https://github.com/SUI-Components/sui-components/commit/6168c85))
+
+
+
+<a name="1.1.0"></a>
+# 1.1.0 (2017-09-12)
+
+
+### Features
+
+* collapsible/expandible component. ([bcb1277](https://github.com/SUI-Components/sui-components/commit/bcb1277))
 
 
 

@@ -23,8 +23,8 @@ export default class TagSelectableList extends Component {
 
   toggleAll = () => {
     this.setSelectedValues(this.isAllSelected()
-        ? []
-        : this.props.tagsList.map(item => item.value)
+      ? []
+      : this.props.tagsList.map(item => item.value)
     )
   }
 
@@ -64,7 +64,7 @@ export default class TagSelectableList extends Component {
           onClick={this.toggleAll}
           isSelected={isAllSelected}
           label={allLabel}
-          icon={isAllSelected && this.props.checkIcon}
+          icon={isAllSelected ? this.props.checkIcon : null}
         />}
         {this._renderTags()}
       </div>
@@ -84,7 +84,7 @@ TagSelectableList.propTypes = {
    * The string content is the label of the button.
    */
   allLabel: PropTypes.string,
-   /**
+  /**
    * By clicking on every tag, `onChange` is triggered and sends an
    * object with the selected items in the array.
    */

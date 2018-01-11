@@ -47,8 +47,11 @@ $p-atom-button-large: $p-l !default;
 @mixin button-icon ($size, $margin) {
   & .sui-AtomButton-leftIcon,
   & .sui-AtomButton-rightIcon {
-    height: $size;
-    width: $size;
+    &,
+    & [class*="Icon"] {
+      height: $size;
+      width: $size;
+    }
   }
 
   & .sui-AtomButton-leftIcon {
@@ -66,6 +69,7 @@ $p-atom-button-large: $p-l !default;
   border: 1px solid;
   border-radius: $bdrs-m;
   box-sizing: border-box;
+  display: inline-block;
   font: {
     family: $ff-sans-serif;
     size: $fz-atom-button;
@@ -82,15 +86,16 @@ $p-atom-button-large: $p-l !default;
     margin-left: $m-m;
   }
 
+  &-inner {
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+  }
+
   // Icons
   &-leftIcon,
   &-rightIcon {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  &-text {
-    vertical-align: middle;
+    display: inline-flex;
   }
 
   // Types and colors
@@ -169,6 +174,7 @@ $p-atom-button-large: $p-l !default;
   }
 
   &--fullWidth {
+    justify-content: center;
     width: 100%;
   }
 
@@ -177,5 +183,10 @@ $p-atom-button-large: $p-l !default;
     .sui-AtomButton-rightIcon {
       margin: 0;
     }
+  }
+
+  // Modifiers
+  &--link {
+    text-decoration: none;
   }
 }
